@@ -17,7 +17,7 @@ class Item:
         self.key = key
         self.value = value
     def __str__(self):
-        return str(self.key)
+        return self.key
 
 
 class Hashtable:
